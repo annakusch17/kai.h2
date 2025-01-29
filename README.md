@@ -102,7 +102,7 @@ Dieser Chatbot enthält detaillierte Informationen für folgende Studiengänge:
 ---
 
 ## 🔗 **Links & Ressourcen**
-- 📌 **GitHub-Repository**: [https://github.com/annakusch17/kai.h2.git]  
+- 📌 **GitHub-Repository**: [https://github.com/annakusch17/kai.h2.git](https://github.com/annakusch17/kai.h2.git)  
 - 📝 **Dokumentation für Streamlit**: [https://docs.streamlit.io](https://docs.streamlit.io)  
 - 🤖 **Hugging Face Modelle**: [https://huggingface.co/models](https://huggingface.co/models)  
 
