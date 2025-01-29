@@ -24,7 +24,14 @@ git clone https://github.com/annakusch17/kai.h2.git
 cd kai.h2
 ```
 
-### **2️⃣ Python & Abhängigkeiten installieren**
+### **2️⃣ Virtuelle Umgebung mit Conda erstellen**
+Es wird empfohlen, eine **virtuelle Conda-Umgebung** zu nutzen:
+```bash
+conda create -n chatbot-env python=3.10
+conda activate chatbot-env
+```
+
+### **3️⃣ Python & Abhängigkeiten installieren**
 Stelle sicher, dass du **Python 3.8 oder neuer** installiert hast. Installiere dann die benötigten Bibliotheken:
 ```bash
 pip install -r requirements.txt
@@ -84,13 +91,10 @@ Dieser Chatbot enthält detaillierte Informationen für folgende Studiengänge:
 ---
 
 ## 👨‍💻 **Entwickler & Beitragende**
-💡 Entwickelt von **Anna Kusch, Nico Seidenberg und Deniz Benckenstein** 
-
+💡 Entwickelt von **Anna Kusch, Nico Seidenberg und Deniz Benckenstein**  
 📍 **Hochschule Magdeburg-Stendal**  
-
-👨🏻‍🏫 **Prof. Dr.-Ing Freiherr von Enzberg**
-
-💻 **KI umsetzen mit Python**
+👨‍🏫 **Prof. Dr.-Ing Freiherr von Enzberg**  
+💻 **KI umsetzen mit Python**  
 
 ---
 
@@ -105,11 +109,6 @@ Dieser Chatbot enthält detaillierte Informationen für folgende Studiengänge:
 - 📌 **GitHub-Repository**: [https://github.com/annakusch17/kai.h2.git](https://github.com/annakusch17/kai.h2.git)  
 - 📝 **Dokumentation für Streamlit**: [https://docs.streamlit.io](https://docs.streamlit.io)  
 - 🤖 **Hugging Face Modelle**: [https://huggingface.co/models](https://huggingface.co/models)  
-
----
-
-
-Jede*r, der möchte, darf den Code verwenden, ändern und verbessern! 😊
 
 ---
 
