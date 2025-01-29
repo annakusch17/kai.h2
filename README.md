@@ -84,7 +84,7 @@ Dieser Chatbot enthält detaillierte Informationen für folgende Studiengänge:
 ---
 
 ## 👨‍💻 **Entwickler & Beitragende**
-💡 Entwickelt von **Anna Kusch**,**Nico Seidenberg** und **Deniz Benckenstein** 
+💡 Entwickelt von **Anna Kusch, Nico Seidenberg und Deniz Benckenstein** 
 📍 Hochschule Magdeburg-Stendal  
 👨🏻‍🏫 Prof. Dr.-Ing Freiherr von Enzberg 
 💻 KI umsetzen mit Python
