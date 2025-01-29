@@ -109,7 +109,7 @@ Dieser Chatbot enthält detaillierte Informationen für folgende Studiengänge:
 ---
 
 
-Jede*r der möchte darf den Code verwenden, ändern und verbessern! 😊
+Jede*r, der möchte, darf den Code verwenden, ändern und verbessern! 😊
 
 ---
 
