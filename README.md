@@ -84,29 +84,27 @@ Dieser Chatbot enthält detaillierte Informationen für folgende Studiengänge:
 ---
 
 ## 👨‍💻 **Entwickler & Beitragende**
-💡 Entwickelt von **Anna Kusch**  
+💡 Entwickelt von **Anna Kusch**,**Nico Seidenberg** und **Deniz Benckenstein** 
 📍 Hochschule Magdeburg-Stendal  
-🚀 Powered by **Streamlit & Hugging Face Transformers**  
-
+👨🏻‍🏫 Prof. Dr.-Ing Freiherr von Enzberg 
+💻 KI umsetzen mit Python
 ---
 
 ## 💡 **Mögliche Erweiterungen**
 ✅ **Mehr Studiengänge hinzufügen**  
 ✅ **Erweiterte KI-Modelle für bessere Antworten**  
 ✅ **Sprachunterstützung für internationale Studierende**  
-✅ **Integration mit echten Hochschuldatenbanken**  
 
 ---
 
 ## 🔗 **Links & Ressourcen**
-- 📌 **GitHub-Repository**: [Hier einfügen]  
+- 📌 **GitHub-Repository**: [https://github.com/annakusch17/kai.h2.git]  
 - 📝 **Dokumentation für Streamlit**: [https://docs.streamlit.io](https://docs.streamlit.io)  
 - 🤖 **Hugging Face Modelle**: [https://huggingface.co/models](https://huggingface.co/models)  
 
 ---
 
-## 🏢 **Lizenz**
-📝 Dieses Projekt steht unter der **MIT-Lizenz**.  
+
 Jede*r darf den Code verwenden, ändern und verbessern! 😊
 
 ---
