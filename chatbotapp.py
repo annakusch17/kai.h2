@@ -190,28 +190,31 @@ def main():
         layout="wide"
     )
 
-    st.sidebar.image("KAI.Logo-removebg-preview.png", use_column_width=True)
-    st.sidebar.title("Über KAI")
-    st.sidebar.info("KAI - Dein Studiengangs-Chatbot für den Fachbereich IWID!")
-    
-    st.title("🎓 Willkommen zum Studiengangs-Chatbot der H2")
-    st.subheader("Stelle Fragen zu den Studiengängen des Fachbereichs IWID!")
-
-    col1, col2 = st.columns([2, 1])
+    col1, col2 = st.columns([1, 2])
 
     with col1:
+        st.image("KAI.Logo-removebg-preview.png", use_column_width=True)
+        st.markdown("""
+        <div style='background-color: #e0f7fa; padding: 10px; border-radius: 10px;'>
+            <p style='font-size: 18px; font-weight: bold; text-align: center;'>
+                💬 Hallo, ich bin <span style='color: #00796b;'>KAI</span>.
+            </p>
+            <p style='text-align: center;'>
+                Stelle mir Fragen zu den Studiengängen des Fachbereichs IWID!
+            </p>
+        </div>
+        """, unsafe_allow_html=True)
+
+    with col2:
+        st.title("🎓 Studiengangs-Chatbot")
+        st.subheader("Finde Informationen zu den Studiengängen!")
+
         st.header("🔍 Studiengangsinformationen")
         program = st.selectbox("Wähle einen Studiengang:", list(structured_data.keys()))
         question = st.text_input("❓ Stelle deine Frage:", placeholder="Beispiel: Welche Module gibt es?")
         if st.button("Antwort erhalten"):
             answer = find_answer_in_data(question, structured_data[program]) or "Ich konnte keine passende Antwort finden."
             st.success(f"📝 Antwort: {answer}")
-
-    with col2:
-        st.header("📘 Schnellübersicht")
-        st.markdown(f"**Regelstudienzeit:** {structured_data[program]['Regelstudienzeit']}")
-        st.markdown(f"**Praxissemester:** {structured_data[program]['Praxissemester']}")
-        st.markdown(f"**Abschluss:** {structured_data[program]['Abschluss']}")
 
 if __name__ == "__main__":
     main()
