@@ -190,7 +190,7 @@ def main():
         layout="wide"
     )
 
-    st.sidebar.image("KAI.Logo-removebg-preview.png", use_column_width=True)
+    st.sidebar.image("KAI.Logo-removebg-preview.png", use_container_width=True)
     st.sidebar.title("Über KAI")
     st.sidebar.info("KAI - Dein Studiengangs-Chatbot für den Fachbereich IWID!")
     
