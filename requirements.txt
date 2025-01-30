@@ -1,5 +1,3 @@
-torch
+streamlit
 transformers
-PyPDF2
-scikit-learn
-
+torch
