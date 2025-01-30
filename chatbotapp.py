@@ -190,6 +190,10 @@ def main():
         layout="wide"
     )
 
+    st.sidebar.image("KAI.Logo-removebg-preview.png", use_column_width=True)
+    st.sidebar.title("Über KAI")
+    st.sidebar.info("KAI - Dein Studiengangs-Chatbot für den Fachbereich IWID!")
+    
     st.title("🎓 Willkommen zum Studiengangs-Chatbot der H2")
     st.subheader("Stelle Fragen zu den Studiengängen des Fachbereichs IWID!")
 
